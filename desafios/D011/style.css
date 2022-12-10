@@ -4,12 +4,14 @@
     margin: 0px;
     padding: 0px;
 }
-body {
-    
-    background-color: blue;
 
+body {
+    background-image: url('imagens/espaco.jpg');
+    background-size: cover;
 }
-img.fundo {
-    height: 100%;
-    width: 100%;
+div {
+    height: 100vh;
+    background-image: url('imagens/astronauta.png');
+    background-repeat: no-repeat;
+    background-position: center center;
 }
