@@ -5,13 +5,20 @@
     padding: 0px;
 }
 
-body {
+div#conteiner{
+    height: 100vh;
+    position: relative;
     background-image: url('imagens/espaco.jpg');
     background-size: cover;
 }
-div {
-    height: 100vh;
+div#conteudo {
+   position: absolute;
+   width: 500px;
+   height: 500px;
     background-image: url('imagens/astronauta.png');
     background-repeat: no-repeat;
-    background-position: center center;
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
 }
